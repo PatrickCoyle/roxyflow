@@ -21,7 +21,7 @@ blocks_to_prediagrams <- function(blocks) {
   tmp1 <- sapply(blocks, block_to_prediagrams)
   tmp2 <- tmp1[!is.na(tmp1)]
   tmp3 <- list(
-    "pkg" = utils::packageName(), 
+    "pkg" = basename(here::here()), 
     "fns" = tmp2
   )
   return(tmp3)
