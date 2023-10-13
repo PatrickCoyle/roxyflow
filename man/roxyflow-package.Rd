@@ -4,12 +4,14 @@
 \name{roxyflow-package}
 \alias{roxyflow}
 \alias{roxyflow-package}
-\title{roxyflow: What the Package Does (One Line, Title Case)}
+\title{roxyflow: A `roxygen2` extension for diagramming R packages.}
 \description{
-What the package does (one paragraph).
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
+A `roxygen2` extension for diagramming R packages.
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Patrick Coyle \email{patricktmc@gmail.com}
 
 }
 \keyword{internal}

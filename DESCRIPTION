@@ -1,10 +1,9 @@
 Package: roxyflow
-Title: What the Package Does (One Line, Title Case)
+Title: A `roxygen2` extension for diagramming R packages.
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Patrick", "Coyle", NULL, "patricktmc@gmail.com", role = c("aut", "cre"))
+Description: A `roxygen2` extension for diagramming R packages.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE, roclets = c("collate", "namespace", "rd"))
